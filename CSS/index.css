@@ -1,0 +1,22 @@
+html, body, div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family:  'ProximaNovaRegular';
+    text-shadow: 7px 3px rgba(105, 88, 88, 0.281);
+    font-size: 35px;
+}
+
+body {
+    line-height: 1;
+    overflow: scroll;
+    margin:0;
+    padding: 0 0;
+}
+
+.container{
+    width: 100%;
+    border:2px solid black;
+}
