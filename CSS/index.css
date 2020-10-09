@@ -14,6 +14,13 @@ body {
     width: 99%;
     margin: 10px;
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .column-1{
     width: 50%;
     float: left;
