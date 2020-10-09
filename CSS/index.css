@@ -1,22 +1,52 @@
 html, body, div{
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    font-family:  'ProximaNovaRegular';
-    text-shadow: 7px 3px rgba(105, 88, 88, 0.281);
-    font-size: 35px;
+    font-size: 25px;
 }
 
 body {
     line-height: 1;
-    overflow: scroll;
     margin:0;
     padding: 0 0;
 }
 
 .container{
+    width: 99%;
+    margin: 10px;
+}
+.column-1{
+    width: 50%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3,.column-4,.column-5{
+    width: 33%;
+    float: left;
+}
+
+.column-5{
+    width: 34%;
+}
+
+.column-6{
     width: 100%;
-    border:2px solid black;
+    float: left;
+}
+
+.span-1,.span-3,.span-5,.span-7,.span-9,.span-11{
+    border: 2px solid blue;
+    padding: 18px 150px;
+    display: block;
+    text-align: center;
+}
+
+.span-2,.span-4,.span-6,.span-8,.span-10,.span-12{
+    border: 2px solid blue;
+    padding: 18px 25px;
+    display: block;
 }
